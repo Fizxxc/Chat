@@ -1,0 +1,49 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mengatur tampilan body halaman */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Warna latar belakang abu-abu terang */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Mengatur gaya pada container */
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+}
+
+/* Mengatur gaya untuk judul */
+h1 {
+    margin-bottom: 20px;
+    color: #333; /* Warna teks abu-abu gelap */
+}
+
+/* Mengatur gaya untuk tombol interaksi */
+button {
+    background-color: #4CAF50; /* Warna hijau */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efek transisi saat hover */
+}
+
+/* Gaya tombol saat di-hover */
+button:hover {
+    background-color: #45a049; /* Warna hijau lebih gelap */
+}
